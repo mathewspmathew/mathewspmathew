@@ -33,8 +33,8 @@ main {
 }
 
 .dp {
-    margin-top: 210px;
-    width: 300px;
+    margin-top: 150px;
+    width: 200px;
     height: auto;
     border-radius: 100%;
     margin-bottom: 0px;
@@ -42,7 +42,7 @@ main {
 
 .name {
     font-family: 'Kaushan Script', cursive;
-    font-size: 50px;
+    font-size: 40px;
     color: #fff;
 
     overflow-y: hidden;
@@ -65,7 +65,7 @@ main {
 
 .icons {
     filter: invert(99%) sepia(9%) saturate(629%) hue-rotate(271deg) brightness(116%) contrast(100%);
-    width: 53px;
+    width: 47px;
 }
 
 .icons:hover {
