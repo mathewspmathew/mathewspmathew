@@ -42,7 +42,7 @@ main {
 
 .name {
     font-family: 'Kaushan Script', cursive;
-    font-size: 35px;
+    font-size: 40px;
     color: #fff;
 
     overflow-y: hidden;
@@ -74,10 +74,10 @@ main {
 
 @media screen and (max-width: 480px) {
     .name {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .dp {
-        margin-top: 100px;
+        margin-top: 70px;
     }
 }
