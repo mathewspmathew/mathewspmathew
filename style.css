@@ -42,7 +42,7 @@ main {
 
 .name {
     font-family: 'Kaushan Script', cursive;
-    font-size: 40px;
+    font-size: 35px;
     color: #fff;
 
     overflow-y: hidden;
@@ -78,6 +78,6 @@ main {
     }
 
     .dp {
-        margin-top: 200px;
+        margin-top: 100px;
     }
 }
