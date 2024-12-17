@@ -1,6 +1,6 @@
 
 <h1 align="center">Hey 👋, I'm Mathews P Mathew</h1>
-<h3 align="center">Student at SJCET Palai🌟.</h3>
+<h3 align="center">Data Analyst🌟.</h3>
 
 <br>
 
