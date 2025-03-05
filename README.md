@@ -7,20 +7,10 @@
 <p><img align="right" src="https://github.com/mathewspmathew/mathewspmathew/blob/1116e32f5b5959195184bca7febfc6e5f66d65c6/mkassets/animation_500_kxa883sd.gif" alt="mathews" /></p>
 
 
-- ✨ Cyber Security | Design
+- ✨ Data Science | Design
 
 - 📫 reach me on **mathewsparan@gmail.com**
 <br>
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-  <a href="https://www.linkedin.com/in/mathews-p-mathew-a091281b7" target="blank"><img align="center"
-      src="mkassets/linkedln.svg"
-      alt="linkedln" height="30" width="40" /></a> 
- <a href="https://twitter.com/mathews_pmathew/" target="blank"><img align="center"
-      src="mkassets/twitter.svg"
-      alt="twitter" height="30" width="40" /></a> 
-</p>
 
 <br>
 
