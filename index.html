@@ -1,55 +1,159 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
-
-
+    <meta name="description" content="Mathews P Mathew — Data Scientist from Kochi, Kerala">
     <title>Mathews P Mathew</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
     <main>
-        <div class="row d-flex justify-content-center">
-            <img class="dp" src="round50px.png" alt="">
+
+        <!-- Profile -->
+        <div class="profile">
+            <img src="IMG_0722.JPG" alt="Mathews P Mathew" class="avatar">
+            <div>
+                <h1>Mathews P Mathew</h1>
+                <p class="role">Data Scientist</p>
+                <p class="location">📍 Kochi, Kerala</p>
+            </div>
         </div>
 
-        <div class="row mt-4">
-            <h1 class="name text-center">- Mathews P Mathew -</h1>
+        <p class="bio">a human being.</p>
+
+        <div class="links">
+            <a href="tel:+919961386221">Contact</a>
+            <a href="mailto:mathewsparan@gmail.com">✉️ Email</a>
+            <a href="https://linkedin.com/in/mathewspmathew" target="_blank">LinkedIn</a>
+            <a href="https://github.com/mathewspmathew" target="_blank">GitHub</a>
+            <a href="https://www.behance.net/mathewspmathew" target="_blank">Behance</a>
+            <a href="https://mathewspmathew.github.io/portfolio/assets/Resume%20mathews.pdf" target="_blank">📄
+                Resume</a>
         </div>
-        <div class="row mt-4">
-            <h6 class="text-center desc">Security Enthusiast / Designer</h6>
-        </div>
-        <div class="row mt-3  d-flex justify-content-center">
-            <img class="icons" src="407-twitter.svg" alt="" onclick="redirect('musk')">
-            <img class="icons" src="433-github.svg" alt="" onclick="redirect('gh')">
-            <img class="icons" src="459-linkedin2.svg" alt="" onclick="redirect('link')">
-            <img class="icons" src="444-behance.svg" alt="" onclick="redirect('drbl')">
-        </div>
+
+        <hr>
+
+        <!-- Tech Stack -->
+        <section>
+            <h2>Tech Stack</h2>
+            <div class="tags">
+                <span>Python</span><span>SQL</span><span>Pandas</span><span>NumPy</span>
+                <span>Matplotlib</span><span>Power BI</span><span>Tableau</span><span>Plotly</span>
+                <span>Machine Learning</span><span>XGBoost</span><span>LangChain</span><span>LangGraph</span>
+                <span>RAG Systems</span><span>FAISS</span><span>Gemini API</span>
+                <span>AWS</span><span>GCP</span><span>Docker</span><span>Kubernetes</span>
+                <span>Airflow</span><span>FastAPI</span><span>Streamlit</span><span>BigQuery</span>
+                <span>Figma</span><span>Adobe Suite</span>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Projects -->
+        <section>
+            <h2>Projects</h2>
+
+            <div class="project">
+                <h3>GuideForCoach — AI Football Scouting System</h3>
+                <p>Built a KNN-based scouting tool; created a LangGraph multi-agent system (ML + Tavily + Gemini)
+                    deployed via FastAPI.</p>
+                <div class="tags sm">
+                    <span>LangGraph</span><span>FastAPI</span><span>KNN</span><span>Gemini</span>
+                </div>
+            </div>
+
+            <div class="project">
+                <h3>Diabetes Chatbot Assistant — RAG Healthcare</h3>
+                <p>RAG system using LangChain and Gemini API for fact-checked medical responses. Semantic search with
+                    Sentence Transformers & FAISS, deployed on Streamlit.</p>
+                <div class="tags sm">
+                    <span>LangChain</span><span>RAG</span><span>FAISS</span><span>Streamlit</span>
+                </div>
+            </div>
+
+            <div class="project">
+                <h3>Automated Data Pipeline & Reporting — AWS</h3>
+                <p>Automated AWS pipeline (Glue, Lambda) for streamlined querying. Built secure QuickSight dashboards
+                    for real-time NoSQL insights.</p>
+                <div class="tags sm">
+                    <span>AWS</span><span>Lambda</span><span>Glue</span><span>QuickSight</span>
+                </div>
+            </div>
+
+            <div class="project">
+                <h3>Customer Churn Prediction — ML</h3>
+                <p>End-to-end ML pipeline — trained multiple models and achieved 79% accuracy with XGBoost after
+                    hyperparameter tuning via GridSearchCV. Deployed on Streamlit.</p>
+                <div class="tags sm">
+                    <span>XGBoost</span><span>Scikit-learn</span><span>Streamlit</span>
+                </div>
+            </div>
+
+            <div class="project">
+                <h3>Questioning PDF — RAG on Streamlit</h3>
+                <p>Uploaded PDFs split into 800-character chunks with overlap for context continuity. Saved into
+                    ChromaDB and prompted via gemma-3-1b-it.</p>
+                <div class="tags sm">
+                    <span>ChromaDB</span><span>Streamlit</span><span>RAG</span>
+                </div>
+            </div>
+
+            <div class="project">
+                <h3>Automated Daily Sales Pipeline — GCP</h3>
+                <p>GCP pipeline: data uploaded to bucket → BigQuery via Airflow → analyzed with a scheduled SQL view →
+                    visualized in Looker Studio.</p>
+                <div class="tags sm">
+                    <span>GCP</span><span>BigQuery</span><span>Airflow</span><span>Looker Studio</span>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Journey -->
+        <section>
+            <h2>Journey</h2>
+
+            <div class="entry">
+                <span class="date">Aug 2024 → Present</span>
+                <h3>Brototype Kochi</h3>
+                <p>Data Science intensive program.</p>
+            </div>
+
+            <div class="entry">
+                <span class="date">2022 — 2023</span>
+                <h3>GDSC Lead — Google Developer Student Clubs</h3>
+                <p>Led a team of 12, organized workshops on Google technologies.</p>
+            </div>
+
+            <div class="entry">
+                <span class="date">2022 — 2023</span>
+                <h3>IEEE Design Team — SJCET & Kochi Subsection</h3>
+                <p>Lead Designer for IEDC Summit '22 and core team for GDSC WOW 2023.</p>
+            </div>
+
+            <div class="entry">
+                <span class="date">2020 — 2024</span>
+                <h3>BTech in Computer Science</h3>
+                <p>St. Joseph's College of Engineering and Technology, Palai.</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <footer>
+            <p>Mathews P Mathew © 2025</p>
+        </footer>
+
     </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-    <script src="script.js"></script>
 </body>
 
 </html>
